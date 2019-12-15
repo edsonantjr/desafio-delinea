@@ -1,0 +1,35 @@
+<div class="container h-100">
+  <div class="d-flex justify-content-center h-100">
+    <div class="form-card">
+      <div class="d-flex justify-content-center">
+        <div class="title">
+          <h2>Prova Delinea</h2>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <form class="w-100">
+          <div class="form-group">
+            <label for="usernameInput">Usuário</label>
+            <input type="text" class="form-control" id="usernameInput" autocomplete="off">
+          </div>
+
+          <div class="form-group">
+            <label for="passwordInput">Senha</label>
+            <input type="password" class="form-control" id="passwordInput" autocomplete="off">
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary" [routerLink]="['../../candidate']">
+              Entrar
+            </button>
+
+            <button type="submit" class="btn btn-primary" [routerLink]="['../register']">
+              Cadastrar-se
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
